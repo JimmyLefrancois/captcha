@@ -80,4 +80,5 @@ class Captcha
         $image = ob_get_clean();
         return 'data:image/png;base64,' . base64_encode($image);
     }
+
 }
